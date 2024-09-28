@@ -1,0 +1,37 @@
+lists are to maintain certain items
+--menu(list of food items)
+-- courses
+-- attendance
+-- list of bills
+-- grocery lists
+-- shopping list
+-- playlist
+
+Lists are basically three types
+1. ordered lists: In ordered lists, elements/items order is important
+eg: <ol>
+<li>gfhj</li>
+<li>fh</li>
+</ol>
+By default elements are in number order , we can also provide orders such as 'A','a','I','i' through type attribute. we can start from anywhere using start attribute
+
+2. unordered lists: By default elements are in bullet points/dots. here order is not important
+eg: <ul>
+<li>fghfdh</li>
+<li>jhgf</li>
+</ul>
+it is not recommanded to change li type in html
+3. definition lists:
+Definition lists are used to provide definitionsthrough dl tag. Inside 'dl' , we provide 'dt' and 'dd'
+dt --> definition term
+dd --> definition data
+
+
+
+
+
+
+
+
+
+

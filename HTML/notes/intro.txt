@@ -1,0 +1,68 @@
+HTML stands Hypertext Markup Language. HTML is used for the structure of web pages
+WWW (world wide Web ) started by Tim Berner's Lee
+Markup languages are not programming language.
+Tim BErner's Lee started HTML in 1992. Initially, we used to GML(Generalized Markup Language) 
+==>SGML(standard GML)=>HTML
+We are in current version HTML5
+There is one organization to care HTML i.e., W3C(world wide web consoritum)
+
+<!-- This is a basic HTML to Print My name  -->
+ <!-- indentation means left side gaps to make code multilevels-->
+<!-- VS Code provides so many shortcuts , these are called Emmets. -->
+ <!-- Emmet to get sample HTML code is !+enter or html:5 + enter-->
+
+ <!DOCTYPE html> <!--this line means following document is HTML -->
+ <html lang="en"><!-- it is html open tag , -->
+ <head> <!-- head opening tag, head is used for meta data, data about data-->
+    <meta charset="UTF-8"><!-- it represents my code uses unicode tranmission format character set-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport means what you see in screen-->
+    <title>PRASAD</title><!-- title will be visible in tab section-->
+ </head>
+ <body>
+    <!-- Actual code will be inside body-->
+     Hello world, this is Prasad
+ </body>
+ </html> <!-- HTML CODE ENDS -->
+Headings:
+    Headings are used to print headings into web page. There are 6 headings available in html named as h1 to h6. the key difference is size
+<h1>Hello Headings</h1>
+    <h2>Hello Everyone</h2>
+    <h3>Hello 3</h3>
+    <h4>Hello 4</h4>
+    <h5>Hello 5</h5>
+    <h6>Hello 6</h6>
+For Better SEO, it is always recommanded to use only one h1 per page
+paragraphs: paragraph uses p tag and to generate default paragraph , we can use emmet 'lorem' in VSCode
+Anchor tag:
+To give refernce to another web pages, we use anchor tags. there are 2 basic attributes of anchor tag. they are href and target
+href--> hyper reference is used to give reference links
+target ---> target is used to open the link in new tab
+img : img is used for images with two basic attributes such as src and alt.
+src is used to give th image link
+alt- alternate text only works when src is not loaded
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
