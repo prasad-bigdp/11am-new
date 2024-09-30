@@ -1,0 +1,17 @@
+formatting tags are used to format the text, to represent the text in different styles
+b -- used to make the text bold
+strong -- used to make the text bold but search engines understands it better so better SEO
+i -- used to make the text italic
+em -- used to make the text italic but search engines understands it better so better SEO
+u -- used to make text underline
+del -- used to strike out the text making Search engines understand word is deleted
+ins -- used to make text underline but Search engines understands it as inserted word
+br -- self closing tag to make the text break.. used to break as a new line
+hr-- used for horizantal line
+sub -- used to make text as subscript
+sup -- used to make the text as superscript
+code -- used to write code in coding format
+address -- used to make address in italic format
+kbd -- used to make keyboard shortuts in specific format
+pre --  used to make text preformatted including spaces.
+mark -- used to hightlight the text

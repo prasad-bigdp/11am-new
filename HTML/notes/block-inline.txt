@@ -1,0 +1,9 @@
+tag vs element:
+<h1>
+kfhkdh
+</h1>
+element --- content withing tags
+Block : Block elements will not allow any other elements to beside them
+Inline: Inline elements will allow other elements to beside them
+General Block element is div
+General Inline element is span
