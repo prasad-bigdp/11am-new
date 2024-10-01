@@ -1,0 +1,2 @@
+There are some elements which are block and used to make search engines understand our code well
+These elements do not create any impact on UI

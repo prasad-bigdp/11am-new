@@ -1,0 +1,22 @@
+Table is a representation of data in rows and columns
+Eg: screener,crickbuzz, amazon comparison
+table is done by table tag
+inside the table, we can define tr - table rows
+Inside tr, we can give td(table data) or th(table head)
+by default th will be bold and centered
+
+To combine rows , we can use an attribute rowspan="no_of_rows"
+To combine columns, we can use an attribute colspan="no_of_columns"
+
+we can give border by border attribute of table
+we give give gap inside the cells using an attribute cellpadding
+we can give gap outside / between the cells using an atrribute cellspacing
+
+we can make search engines understand our code well by defining
+thead,tbody,tfoot
+
+we can give caption to mention the title of table at center
+
+
+
+

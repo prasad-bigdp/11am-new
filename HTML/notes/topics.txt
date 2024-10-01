@@ -1,0 +1,8 @@
+-- internet fundamental
+-- UI/UX - figma
+-- html intro
+-- headings,p,a,img
+-- formatting tags
+-- lists
+-- block vs inline
+-- tables
