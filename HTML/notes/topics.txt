@@ -6,3 +6,8 @@
 -- lists
 -- block vs inline
 -- tables
+-- semantic elements
+-- classes & id, symbol codes
+-- media
+-- forms
+-- HTML5

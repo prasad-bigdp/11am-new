@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <!-- figure -->
+     <figure>
+        <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_4:3,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg" alt="mr bean" height="300">
+        <figcaption>what are you teaching?</figcaption>
+     </figure>
+     <!-- picture tag is used to make image responsive / to present different images for different screens-->
+     <picture>
+        <source media="(min-width:1080px)" srcset="https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_4:3,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg">
+        <source media="(min-width:780px )" srcset="https://navycrow.com/wp-content/uploads/2017/01/AAEAAQAAAAAAAAfnAAAAJGYxNjgzNWU2LWFjNmItNGZmOC1hMTQyLWJiNzNmOTdiNDE1ZQ.jpg">
+        <source media="(min-width: 480px)" srcset="https://cdn.europosters.eu/image/1300/posters/pokemon-pikachu-neon-i71936.jpg">
+        <img src="https://www.metacritic.com/a/img/catalog/provider/2/13/2-644dfad9cb5e803aa8acd4ec878aa905.jpg" alt="kick" height="300">
+     </picture>
+     <!-- to display mp3 file we can use audio and source -->
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/bb8996c1-9fd7-428c-95e7-a2f7b4181ae1/FvMDmyOQcE.json" background="transparent" speed="3" style="width: 800px; height: 800px;" loop autoplay></dotlottie-player>
+      <audio controls autoplay>
+        <source src="./mysong.mp3">
+      </audio>
+      <!-- to display videos , we can use video and source-->
+       <video height="300" controls autoplay muted>
+        <source src="./myvideo.mp4">
+       </video>
+       <!-- to display any documents or 3rd party sites, use iframe-->
+        <!-- <iframe src="./Resume (1).pdf" frameborder="0" height="500" width="500"></iframe> -->
+        <iframe src="http://127.0.0.1:5500/HTML/code/lists/index.html" frameborder="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t0Q2otsqC4I?si=yMQ9H5ZtmHOZ0SFe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.468547301867!2d78.44549370899416!3d17.43727418338943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c8a05d2125%3A0xee84a18a25bbfce2!2sNaresh%20i%20Technologies!5e0!3m2!1sen!2sin!4v1727938010406!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <iframe src="https://1000webgames.com/games/warfarearea3/html5/" scrolling="no" allowfullscreen="" width="900" height="506" frameborder="0"></iframe>
+</body>
+</html>
