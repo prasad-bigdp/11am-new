@@ -1,0 +1,5 @@
+Eg: login forms. signup forms, captcha, enquiry form, newsletter, search, application, feedback, declaration, contact
+any form will have some inputs and buttons
+
+Any inputs can be done using input tag.
+form is embedded in form tag
