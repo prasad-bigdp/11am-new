@@ -3,3 +3,99 @@ any form will have some inputs and buttons
 
 Any inputs can be done using input tag.
 form is embedded in form tag
+form will have two attributes
+  -- action: it contains path to which you form data will be submitted
+  -- method: get(data can be seen in URL),post(data cannot be seen in URL)
+By default get is the option
+input also have attributes such also
+  -- type: defines the type of input element
+  -- placeholder: a dummy text to describe use what to enter and this value will be gone once user starts typing input
+  -- name: name is the name of that partivular input when it is passed to another path
+  -- value is the content inside the input, using this option , we can give default value
+  -- id: to uniquely identify any element, we can provide id
+-- We can also used labels to describe the inputs and we can connect them using element's id and label's for
+
+
+differnt types of types:
+1. text: used to input the text fields
+2. email : used to input the email id's
+3. password: used to enter passwords
+4. color: used to enter/select the colors
+5. date : used to choose a date using calender
+6. time : used to select time
+7. datetime-local: used to enter date and time
+8. file: used to import fields
+9. number : used to print numbers
+10. url: used to enter http/https links
+11. hidden : used to pass parameers without showing to the customer
+12. search: used to perform search operations
+13. week/month: used to select certain date and choose to select
+14. range: used to choose range of an element
+15. button : used to create buttoms
+15. submit: it's a submit button
+16. reset : used to make enetered inputs null
+17. tel: used to store telephone info
+
+
+<!-- radio buttons - these buttons are used to select  elements with unique chances.
+           <input type="radio" name="ans" id="one" value="3">
+            <label for="one">3</label>
+            <input type="radio" name="ans" id="two" value="8">
+            <label for="two">8</label>
+            <input type="radio" name="ans" id="three" value="5">
+            <label for="three">5</label>
+            <input type="radio" name="ans" id="four" value="22">
+            <label for="four">22</label>
+Note: radio buttons must have same name
+
+<!-- checkboxes are used to select multiple options -->
+ <input type="checkbox" name="terms" id="terms" checked>
+            <label for="terms">I agree for terms & conditions</label>
+
+ <!-- for drop downs we can use selection with options -->
+  <select name="branch">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="cicil">Civil</option>
+            </select>
+  options can be grouped with optgroup and label
+fieldset: all the fileds inside the field set can be given a border and legend works as a gate
+textarea: for addresses/feedbacck we can use textarea
+
+validations:
+   required  -- to make the input required
+   minlength  -- defines the maximum length that input takes
+   maxlength  -- defines the minimum length the input takes
+   min -- minimum value the input takes
+   max -- maximum value the input takes
+   pattern -- regular expression to deal and validate customized patterns
+   selected -- to make radios by default selected
+   checked -- to make check boxes default checked
+   readonly -- to make certain values readonly
+   dispable -- to make inputs disabled
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

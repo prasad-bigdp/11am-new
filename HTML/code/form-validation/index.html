@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <h1>Signup form</h1>
+    <form action="main.py">
+       <fieldset>
+        <legend>sign up</legend>
+         <div class="input">
+            <input type="text" name="fn" placeholder="Enter First name"
+            maxlength="15" minlength="2" pattern="[A-Za-z0-9]{3,}+@+[A-Za-z]{3.}+/.[A-Za-z]{2,}" required>
+            <input type="text" name="ln" value="patel" placeholder="Enter Last name" disabled>
+        </div><br>
+        <div class="input">
+            <input type="email" name="em" placeholder="Enter email" required>
+        </div><br>
+        <div class="input">
+            <span>select your gender: </span>
+            <input type="radio" name="gender" id="male" checked>
+            <label for="male">MALE</label>
+              <input type="radio" name="gender" id="female">
+            <label for="female">FEMALE</label>
+        </div><br>
+        <div class="input">
+            <input type="number" name="age" min="18" placeholder="enter age">
+        </div><br>
+        <div class="input">
+            <select name="branch">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="cicil">Civil</option>
+            </select>
+        </div><br>
+        <div class="input">
+            <input type="checkbox" name="terms" id="terms" checked>
+            <label for="terms">I agree for terms & conditions</label>
+        </div><br>
+        <div class="input">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+       </fieldset>
+    </form>
+    
+</body>
+</html>

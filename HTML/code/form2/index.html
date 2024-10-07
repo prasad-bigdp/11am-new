@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="main.php">
+        <fieldset>
+            <legend>Registration form</legend>
+            <p>choose someone below, only one?</p>
+        <div>
+            <input type="radio" value="bujji" name="frnd" id="bujji">
+            <label for="bujji">Bujji</label>
+            <input type="radio" value="bajji" name="frnd" id="bajji">
+            <label for="bajji">Bajji</label>
+        </div>
+        <p>Choose the correct, what is 2+2?</p>
+        <div>
+            <input type="radio" name="ans" id="one" value="3">
+            <label for="one">3</label>
+            <input type="radio" name="ans" id="two" value="8">
+            <label for="two">8</label>
+            <input type="radio" name="ans" id="three" value="5">
+            <label for="three">5</label>
+            <input type="radio" name="ans" id="four" value="22">
+            <label for="four">22</label>
+        </div>
+        <p>Select your skills</p>
+        <div>
+            <input type="checkbox" name="skill" id="cone" value="react">
+            <label for="cone">React</label>
+             <input type="checkbox" name="skill" id="ctwo" value="node">
+            <label for="ctwo">Node</label>
+             <input type="checkbox" name="skill" id="cthree" value="js">
+            <label for="cthree">JS</label>
+             <input type="checkbox" name="skill" id="cfour" value="angular">
+            <label for="cfour">Angular</label>
+        </div>
+        <!-- whenever we want dropsowns, we can use select and option-->
+        <p>Select your favourite subject</p>
+        <select name="sub" id="sub">
+           <optgroup label="school">
+             <option value="Maths">Maths</option>
+            <option value="science">science</option>
+            <option value="Hindi">hindi</option>
+           </optgroup>
+           <optgroup label="college">
+             <option value="java">JAVA</option>
+            <option value="python">Python</option>
+            <option value="c#">c#</option>
+            <option value="JS">JS</option>
+           </optgroup>    
+        </select>
+        <textarea name="" id="" cols="20" rows="30"></textarea>
+        <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

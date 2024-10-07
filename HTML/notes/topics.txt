@@ -9,5 +9,6 @@
 -- semantic elements
 -- classes & id, symbol codes
 -- media
--- forms
+-- forms(form attributes,input attributes,
+different types of inputs,fieldset,label,textare,select,legend,validation)
 -- HTML5

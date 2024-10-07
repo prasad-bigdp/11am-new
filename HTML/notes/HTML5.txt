@@ -1,0 +1,8 @@
+HTML5 is the recent and advanced version of HTML5
+Features added in HTML5 are:
+1. semantic elements
+2. inputs like email,url,date,number,range,color. also validations like required,pattern,novalidate,placeholder
+3. video,audio,picture
+4. for graphics, canvas(will be discussed in javascript) and svg
+5. gelocation API -- will be discussed in JS
+6. drag n drop -- will be discussed in JS
