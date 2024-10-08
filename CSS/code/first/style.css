@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+ 
+ /* h1{
+            background-color: blue;
+            color: white;
+        }
+        .bujji{
+            background-color: red;
+        }
+        #chitti{
+            background-color: green;
+        } */
+
+
+
+body{
+    /* background:linear-gradient(orange,white,green); */
+    /* background: radial-gradient(aqua,blue,aqua,blue,aqua,blue,aqua,blue,aqua,blue,aqua,blue,aqua,blue); */
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+ font-family: "Noto Sans Devanagari", sans-serif;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+

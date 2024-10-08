@@ -1,0 +1,49 @@
+CSS(cascading style sheets): css were started in 1994 and used to design,style,layout the web pages.
+There are three ways we can implement css into HTML
+ i. inline Styling: it is the most powerful way and using this , we can implement styles inside the line of HTML element.Here style is given as attribute
+ <h1 style="background-color: blue;color: white;">Hello CSS</h1>
+ <!-- create a div with your name and assign styles bgcolor,color using inline -->
+
+ ii. internal styling : In this styling, style works a element. we declare style in head and defines styles using some selectors
+  <style>
+        h1{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    <!-- create some paragraph to describe your data and give color,bgcolor to them using internal css -->
+
+  iii. External CSS: Sometimes it's difficult to manange HTMl,CSS in single file, in that times, we can use external CSS where we write css in .css files and link them to HTMl
+   <link rel="stylesheet" href="style.css">
+
+inline>internal=external
+any time more preference is for !important
+
+
+2. we can assign CSS to some specific elements by selecting them using selectors
+basic selectors:
+tag selector: you can select elements of similar tag using tag name
+class name: we can select elements with similar class name using .classname
+id: we can select element with id using #id
+id>class>tag
+
+Basics of Design:
+A Good Design will be always minimal,interactive and brand associate
+it should represent brand by colors,fonts,units
+colors: colors represent an emotion,connection that brand wants to convey
+colors can be assigned by name,hex code,rgb,rgba,hsl,gradients(linear/radial)
+Fonts: Fonts speak profeesionality. there are 5  font families in the world
+  i. serif -- serif fonts will have strokes at the end of letters eg: times new roman
+  ii. sans serif  -- sans means no. so sans serif fonts will not strokes eg:Arial
+  iii. monospace -- these fonts are of same height letters eg:roboto
+  iv. cursive  -- these are stylish letters with some chain linking
+  v. fantasy/modern
+
+
+
+
+
+
+
+
+
