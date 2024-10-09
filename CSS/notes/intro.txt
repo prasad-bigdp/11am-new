@@ -32,12 +32,53 @@ A Good Design will be always minimal,interactive and brand associate
 it should represent brand by colors,fonts,units
 colors: colors represent an emotion,connection that brand wants to convey
 colors can be assigned by name,hex code,rgb,rgba,hsl,gradients(linear/radial)
+  references: realtimecolors, colorhunt, cssgradient.io
 Fonts: Fonts speak profeesionality. there are 5  font families in the world
   i. serif -- serif fonts will have strokes at the end of letters eg: times new roman
   ii. sans serif  -- sans means no. so sans serif fonts will not strokes eg:Arial
   iii. monospace -- these fonts are of same height letters eg:roboto
   iv. cursive  -- these are stylish letters with some chain linking
   v. fantasy/modern
+  references: dafonts,1001 fonts, google fonts
+units: Any property in CSS can be measured by some units like
+px -- pixels -- pixel is the smallest unit based on device specification(heightXwidth)
+em -- enumerated value -- it is x times of parent's font Size
+rem -- root enumerated value -- it is x times of body's fontSize(by default body font size 16px)
+vh,vw -- viewport height,viewport width -- it is the visible height and width of the screen
+% -- you can always specify x% of parent
+
+background:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

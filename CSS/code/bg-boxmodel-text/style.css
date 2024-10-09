@@ -1,0 +1,20 @@
+body{
+    background-image: url('https://sm.ign.com/t/ign_in/review/d/deadpool-r/deadpool-review_ny42.1200.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.myBox{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    width:200px;
+    border:5px solid black;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 50px 100px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,16 @@
+Any Element in css is treated as Box
+A Box contains
+  -- i. border: border defines the outermost line of a box
+  border: border-size border-style(solid/dashed/dotted/double) color;
+  we can also give border-left,border-right etc..,
+  borders can also have radius(corner radius)
+  border-radius:size; it applies to all corners.
+  we can also assign border-top-left-radius, border-top-radis-radius etc..,
+  -- ii. margin: it is the space outside the border
+  margin:size; it applies all sides
+  margin:size1 size2; size1 is for top and bottom, size2 is for left and right
+  margin-left,marigin-right,margin-bottom,margin-top also can be used
+  -- iii. padding: we can specify padding exactly same as margin. but padding is space inside the box
+when we give padding it may increase height & width
+To resolve it we can use box-sizing:borde-box
+
