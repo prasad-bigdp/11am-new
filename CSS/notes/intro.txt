@@ -48,7 +48,10 @@ vh,vw -- viewport height,viewport width -- it is the visible height and width of
 % -- you can always specify x% of parent
 
 background:
-
+color
+image - size,position,repeat
+linear gradients
+radial gradients
 
 
 

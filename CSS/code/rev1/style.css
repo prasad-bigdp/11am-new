@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url('./man-2915187_1280.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+div{
+    background-color: white;
+      width: 50vw;
+       margin: auto;
+        padding: 40px;
+    border-radius: 20px;
+        font-size: 34px;
+
+}
+.divv{
+  
+   
+   
+    margin-top: 40vh;
+}
+.p{
+    float: right;
+}
+.article img{
+    float: right;
+}
+.article p{
+    clear: right;
+}
+.box1,.box2,.box3{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 24px;
+    width: 30%;
+    margin: 20px 10px;
+}
+.box1{
+    float:left;
+}
+.box2{
+    float: left;
+}
+.box3{
+    float:left
+}
+.box::first-letter{
+ font-weight: bold;
+ font-size: 42px;   
+}
