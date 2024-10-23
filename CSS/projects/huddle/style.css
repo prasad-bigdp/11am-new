@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+ font-family: "Open Sans", sans-serif;
+ font-weight: 400;
+}
+button{
+   font-family: "Open Sans", sans-serif;
+ font-weight: 700; 
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+#banner{
+    background-image: url('./images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-color: hsl(193, 100%, 96%);
+   padding:50px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+#banner nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#banner nav button{
+    padding: 10px 40px;
+    background-color:white;
+    color: black;
+    border-radius: 30px;
+}
+.mainBanner{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.leftBanner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    width: 70%;
+}
+.leftBanner h1{
+  font-size: 36px;
+}
+.leftBanner p{
+    font-size: 16.5px;
+}
+.leftBanner button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 70px;
+    border-radius: 30px;
+    width: max-content;
+}
+.rightBanner img{
+    width: 100%;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    margin:50px 0px ;
+}
+.slide>div{
+    max-width: 80%;
+    box-shadow: 1px 1px hsl(208, 11%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 150px;
+    border-radius: 15px;
+    
+}
+.left1{
+  width: 50%;
+}
+.right1 img{
+    height: 300px;
+}
+.slide2>div{
+    flex-direction: row-reverse;
+}
+.getReadySection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getReady{
+    background-color: white;
+    padding: 100px 200px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    margin-bottom:-50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: max-content;
+}
+.getReady button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 20px 60px;
+    border-radius: 50px;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+}
+footer>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 100px;
+}
+.menu{
+    width: 20%;
+}
+.menu1 img{
+    width: 300px;
+}
