@@ -1,0 +1,23 @@
+#parent{
+    width: 450px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* flex-wrap: wrap-reverse;
+    align-content: space-between; */
+    /*justify content moves items along main axis - left,start,flex-start,end,right,center,space-between,space-evenly,space-around*/
+    /* align-items arrange in cross axis*/
+}
+.child{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+   color: white;
+   font-size: 48px;
+}
+.child3{
+flex-basis: 200px;
+}
