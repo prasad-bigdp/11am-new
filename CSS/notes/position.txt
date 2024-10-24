@@ -1,0 +1,12 @@
+Position is used to keep element wherever we want.
+
+There are 5 positions available in css.
+1. static-- by default all elements will have static. top,left,right,bottom will not have any impact
+
+2.Relative : it will conside left,right,bottom,top based on its previous positions
+
+3. absolute: it will consider always position on body, when you say top:0, it will go from top 0 of body
+
+4. fixed: it is exactly same as absolute but scrolling does not affect it.
+
+5. sticky: relative+fixed . after reaching mentioned lengths , it will becomes fixed

@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid red;
+}
+.child{
+    height: 500px;
+    width: 100%;
+    background-color: green;
+    margin: 5px;
+    color: white;
+    font-size: 36px;
+}
+/* there are 5 positions available -- static, absolute,relative,fixed and sticky
+by default all elements have position static, static will not have any impact for top,left,right,bottom
+*/
+/* .child5{
+    position: relative; 
+    /* relatives compares from its previous positions*/
+ 
+   /* top: 100px;
+} */
+/* .child5{
+    height: 100px;
+    width: 100px;
+    position: absolute; 
+    /* abolute compares from body, absolute element will be removed from flow*/
+   /* bottom: 0px;
+    right: 0px;
+    background-color: red;
+ 
+   
+} */
+ /* .child5{
+    height: 100px;
+    width: 100px;
+    position: fixed; 
+    /* fixed is nothing but absolute but no impact of scrolling*/
+    /*bottom: 0px;
+    right: 0px;
+    background-color: red;
+} */
+.child2{
+    height: 100px;
+    width: 100px;
+    position: sticky; 
+    /* sticky = relative + fixed , it becomes fixed after matching criteria*/
+    top: 0px;
+    background-color: red;
+ 
+   
+}
+
+
+

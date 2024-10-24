@@ -1,0 +1,46 @@
+The float property is used to push an element to one side and make it float along the specified direction (left or right), allowing content to flow around it. It was primarily used for creating layouts where elements could be positioned side by side, such as creating columns of text or images.
+
+Syntax:
+
+
+.element {
+    float: left | right | none | inherit;
+}
+left - Floats the element to the left, allowing content to flow around its right side.
+right - Floats the element to the right, allowing content to flow around its left side.
+none - Default value. The element does not float, and content flows as normal.
+inherit - Inherits the float behavior from its parent element.
+Example:
+
+
+.float-left {
+    float: left;
+    width: 50%; /* Example width */
+}
+Important notes:
+Floated elements are taken out of the normal document flow, which can sometimes lead to layout issues if not managed properly.
+Elements following a floated element will wrap around it if there is enough space. To prevent this, you can use the clear property.
+Clear
+The clear property is used to control the behavior of elements (usually, but not limited to, those following floated elements) concerning floating elements. It specifies whether an element should be moved below (cleared) floating elements that precede it.
+
+Syntax:
+
+
+.element {
+    clear: none | left | right | both | inherit;
+}
+none - Default value. The element is not moved down past floating elements.
+left - The element is moved down past any left-floating elements.
+right - The element is moved down past any right-floating elements.
+both - The element is moved down past both left and right floating elements.
+inherit - Inherits the clear behavior from its parent element.
+Example:
+
+
+.clear-left {
+    clear: left;
+}
+Important notes:
+Using clear is often necessary when you want to ensure that an element appears below floated elements.
+If you apply clear to an element, it will move down past the last floated element that appears before it in the HTML source.
+It's common to use clear with a value of both to ensure that an element clears both left and right floats.

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+/* child selector */
+/* div>p  /*it select all paragraphs inside the div*/
+/*{
+color: green;
+} */
+ /* descendant selector*/
+ /* div p /* it selects all paragraphs which are descendant of div */
+ /*{
+  color: red;
+ } */
+/* sibling selector*/
+ /* div+p /* p which is next of div */
+ /*{
+    color:red
+ } */
+
+
+
+
+
+
+/* pseudo elements slects specific part of an element. they will be written with double colon */
+/* div>p::first-letter{
+    font-size: 60px;
+    color: red;
+} */
+
+/* div>p::first-line{
+    font-size: 60px;
+    color: red;
+}  */
+input::placeholder{
+    color: red;
+}
+div>p>span::after
+{
+   content: "\2019";
+   font-size: 60px;
+   font-weight: bolder;
+} 
+
+
+
+
+
+
+
+
+
