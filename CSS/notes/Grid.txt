@@ -1,0 +1,18 @@
+Grid is used to make the child items arranged in two directional way. always grid property will be given to parent.
+to set columns, we use grid-template-columns: column1-length column2-length ...;
+length can be represented by px, % , em or new unite called fr(fraction)
+similarly you can set grid-template-rows for different row lengths
+To move items in row direction , we use justify-content
+To move items in column direction , we use align-items
+to manage gap between rows, we use align-content
+gap, row-column-gap are used for specific gaps
+
+some properties directly child can do: 
+eg: grid-row-start: starting - row - line;
+grid-row-end: ending - row - line;
+grid-column-start: starting - column - line;
+grid-column-end: ending - column - line;
+you can use short cuts grid-row: rs/re;
+grid-column:cs/ce;
+grid-area:rs/cs/re/ce;
+you can also assign order for elements. default order is 0;
