@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    margin:10px 0px;
+}
+.child:hover{
+    background-color: green;
+}
+input:optional{
+    background-color: green;
+}
+input:read-only{
+    background-color: grey;
+}
+input:read-write{
+    background-color: yellow;
+}
+input:disabled{
+    background-color: red;
+}
+input:enabled{
+    background-color: green;
+}
+.child:not(.child4){
+    background-color: green;
+}
+a:link{
+    color: orange;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: yellowgreen
+}
+.child:nth-last-child(odd){
+    background-color: blue;
+}
+.parent>p:nth-of-type(1){
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+

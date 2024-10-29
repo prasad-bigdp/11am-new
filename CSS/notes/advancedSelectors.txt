@@ -1,0 +1,43 @@
+To select immediate childern , we use .classname>selector
+To select descedant children. we use .classname selector
+To select sibling(element comes after another element), we use fistelement+secondelement
+
+Pseudo Elements: Pseudo elements selects elements based on position. they are written with double colon
+
+selector::first-letter  ---  it will select the first letter
+selector::first-line  --- it will select the first line
+selector::before -- it will add some value of 'content' property before the element
+selector::after -- it will add some value of 'content' property after the element
+selector::placeholder -- it will select the placeholder of specific input
+
+pseudo classes: pesudo classes are used to select the elements based on its state. they are declared with :
+:required: select all input with required attribute
+:optional: select all inputs with not having required attribute
+:read-only: select all inputs with read only attribute
+:read-write: select all inputs with not having readonly attribute
+:disabled: selects all inputs with disabled attribute
+:enabled: selects all inputs with not having disabled attribute
+:link: selects the anchor tag initial state
+:active : selects anchor tag when it got clicked
+:visited: selects anchor tag when it got clicked already or visited once
+:hover: selects the element when mouse over the element
+:not : select all except specific elements
+:fist-child: select the first child
+:last-child:select the last child
+:nth-child(): select the specific position(n) of child
+nth-last-child() : select the specific positioned child from last
+nth-of-type(): select the child based on its type
+nth-last-of-type(): select the child based on its type from the last
+
+
+
+
+
+
+
+
+
+
+
+
+

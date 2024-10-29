@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    gap: 10px;
+}
+.box{
+   
+    border-radius: 50%;
+   animation: heart-beat 0.2s ease alternate infinite;
+}
+.item{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    animation: rotate-scale 3s linear alternate infinite;
+}
+@keyframes rotate-scale {
+  0% {
+    -webkit-transform: scale(1) rotate3d(1, 1, 0, 0deg);
+            transform: scale(1) rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: scale(2) rotate3d(1, 1, 0, -180deg);
+            transform: scale(2) rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate3d(1, 1, 0, -360deg);
+            transform: scale(1) rotate3d(1, 1, 0, -360deg);
+  }
+}
+
+@keyframes roam-around {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    30%{
+        top: 500px;
+        left: 200px;
+        background-color: green;
+    }
+    60%{
+ top: 200px;
+        left: 100px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    100%{
+ top: 0px;
+        left: 500px;
+        background-color: red;
+    }
+}
+@keyframes heart-beat {
+    100%{
+        transform: scale(1.2);
+    }
+}
+@keyframes falls-down {
+    
+    100%{
+       transform: translateY(600px);
+    }
+}
+.box2{
+  animation-delay: 0.1s;
+}
+.box3{
+    animation-delay: 0.2s;
+}
+.box4{
+    animation-delay: 0.3s;
+}
+.box5{
+    animation-delay: 0.4s;
+}
+.box6{
+    animation-delay: 0.5s;
+}
+.box7{
+    animation-delay: 0.6s;
+}
+.box8{
+    animation-delay: 0.7s;
+}

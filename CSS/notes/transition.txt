@@ -1,0 +1,8 @@
+transition means going one state to another state
+transition: transition-properties/all  transition-time timing-function(ease/ease-in/ease-out/ease-in-out/linear) transition-delay;
+eg: transition:all 5s ease 1s
+
+transform property: transform property contains
+ -- translateX,translateY,translateZ,translateX
+ -- scale,scaleX,scaleY,scaleZ
+ -- rotate,rotateX,rotateY,rotateZ
