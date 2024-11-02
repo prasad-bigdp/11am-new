@@ -1,0 +1,4 @@
+Library is a pre written code used for a specific purpose
+Every library will be shared through some delivery networks such as jsdeliver , cdn etc..,
+we need to change the class names in our html code so that the added css library code will be applied to our html
+Eg: animate css, bootstrap

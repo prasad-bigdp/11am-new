@@ -1,0 +1,17 @@
+Bootstrap is a css component library used for responsive UI purposes
+To understand bootstrap , we need to cover four topics.
+1. colors
+2. layout
+3. breakpoints
+4. components
+1.colors: bootstrap provides wide range of colors by default. the total colors are 8
+  a. primary
+  b.secondary
+  c. success
+  d.danger
+  e.warning
+  f.info
+  g.dark
+  h.light
+
+2. layout: By default bootstrap divides the code into rows. each row can have maximum 12 columns
