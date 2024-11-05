@@ -15,3 +15,13 @@ To understand bootstrap , we need to cover four topics.
   h.light
 
 2. layout: By default bootstrap divides the code into rows. each row can have maximum 12 columns
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+Javascript is used for functionality of website. it started by brendan eich and released in 1995. initially it is named as livescript. Due to popularity of java, it is renamed as "Javascript".
+JS runs on Browser because browsers have JS Engine. for google chrome , it is v8
+
+To understand JS, let's understand web and developer Tools once again
+
+Client-Server Model:
+  Client Requests the Server
+  Server Responds to the Client
+
+Developer Tools : we have developer Tools in browser which makes our programming better.we have tools like
+Elements,console,sources,network,performance,memory,application,lighthouse
+
+How to attach JS files to HTML?
+We can use two ways of JS:
+i. Internal Javascript: We can use script element in HTML to apply the javascript
+eg: <script>
+//statements
+</script>
+ii. External Javascript: we can also use External JS with .js extension and connect to HTML using script src attribute
+<script src="./script.js"></script>
+
+
+How to comment in JS?
+IN JS , we can do two types of comments
+i. single-line: they are after // and used for one line
+ii. multi-line : they are used between /* and */
+note: comments are not readable by JS Engine
+
+How to declare a variable in JS?
+In JS , you can declare a variable using var,let or const.
+var
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
