@@ -1,0 +1,21 @@
+Data types:
+Javascript is dynamically typed language
+it have classfication of two types
+ i. primitive data types:
+   a. number: Any numerical value is condsidered as number data type
+   eg:5,6.235, e,0 etc..,
+     -- toFixed() : it rounds up value to certain digits after decimal
+     -- toPrecision() : it rounds up value to certain digits significantly
+     -- toString(): it can convert number to string or any other base number
+     we can also use math methods like sqrt,cbrt,abs,ceil,floor,random,pow,max,min
+   b. string:In js, we can use strings in three ways
+     -- single quotes
+     -- double quotes
+     -- backticks
+   c. boolean
+   d. undefined
+   e. null
+ ii. non-primitive data types or referece data types
+   a. Arrays
+   b. objects
+   c. functions
