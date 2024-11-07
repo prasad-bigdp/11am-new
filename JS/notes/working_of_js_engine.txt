@@ -1,0 +1,10 @@
+what is Hoisting?
+  you can use a variable before its declaration. Utitlizing a value preceeds over initialization is known as Hoisting
+  it gives value undefined
+what is execution context?
+  Entire JS code runs in browser engine with execution content. it is maintained by object called window. execution content creates memory and execution sections and keep all values needed in the program as undefined in memory section.
+  Whole program runs by Global execution context
+  every function uses its own local execution context
+
+what is call stack?
+  A stack is maintained to monitor the current execution context of JS engine. it works with priciple of "Last in first Out"

@@ -28,7 +28,29 @@ note: comments are not readable by JS Engine
 
 How to declare a variable in JS?
 In JS , you can declare a variable using var,let or const.
-var
+var a=10;
+var a=20;
+a=30;
+redeclare and reassign are possible with var
+let b=10;
+b=20;
+redeclare is not possible with let and const 
+let can reassign, const cannot
+const c=20;
+var is function scoped variable, let,const are block scoped variables
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

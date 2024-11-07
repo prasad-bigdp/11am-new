@@ -1,6 +1,9 @@
 //My first singleline comment
 /*my first multi line 
 comment */
+let x = 20, y = 30;
+console.log(x+y) // it will print sum of x and y
+
 console.log("JS is soo easy")
 var a = 20;
 console.log(a);
