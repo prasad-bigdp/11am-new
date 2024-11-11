@@ -24,6 +24,7 @@ Bootstrap
 JS
   -- intro
   -- var,let,const
+  -- JS engine(callstack,hoisting,execution content, window object etc..,)
   -- number(math methods),string(template literal, default methods),boolean,undefined,null
-
+ -- functions
 
