@@ -23,3 +23,21 @@ console.log(
 console.log(typeof a,typeof b);
 a = true;
 console.log(typeof a)
+
+let x = "prasad"
+x = "raj"
+console.log(x.toUpperCase())//RAJ
+console.log(x.toLowerCase())
+console.log(x[0], x[-55])
+console.log(x.length)
+x="raj kumar"
+console.log(x.concat(" kumar"), x.startsWith('r'), x.endsWith('kumar'), x.includes("kum"), x.indexOf('r'), x.lastIndexOf('r'))
+x = "SAM RAJ shekhar RAJ"
+
+console.log(x.split(' '))//['SAM','RAJ','shekhar','RAJ]
+x="Javascript"
+console.log(x.slice(2))
+console.log(2, 5)//vas
+console.log(['p', 'r', 'a', 's', 'a', 'd'].join(' '));
+
+

@@ -1,0 +1,19 @@
+Design:
+Figma community
+Dribble
+Behance
+
+HTML & CSS:
+freecodecamp
+mdn docs
+frontend mentor
+
+JS:
+freecodecamp
+jshero
+https://www.jschallenger.com/overview
+
+-------------------------------------------------------------------
+community:
+dev.to
+hashnode

@@ -1,0 +1,29 @@
+Internet Basics
+UI/UX Design(figma)
+HTML 
+  -- intro
+  -- headings,p,a,img
+  -- lists
+  -- formatting tags
+  -- tables
+  -- forms(inputs,validation)
+  -- block vs inline,semantic
+  -- media,HTML5
+CSS
+  -- intro
+  -- bg,text,fonts,colors
+  -- float,display
+  -- position
+  -- flex
+  -- grid
+  -- media queries
+  -- pesudo elements & attributes
+  -- transitions & animations
+Bootstrap
+  -- netlify,vscode
+JS
+  -- intro
+  -- var,let,const
+  -- number(math methods),string(template literal, default methods),boolean,undefined,null
+
+

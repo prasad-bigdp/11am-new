@@ -11,10 +11,29 @@ it have classfication of two types
    b. string:In js, we can use strings in three ways
      -- single quotes
      -- double quotes
+     --In js, there is no difference between single or double quote
      -- backticks
-   c. boolean
-   d. undefined
-   e. null
+     -- using backtick can provide dynamic values inside the string , usually dynamic values embraced by ${}. this is called template literal
+     strings are primtive data type and strings are immutable
+    strings have some default functions
+     --- toUpperCase() -- It is used to convert given string into Uppercase
+     --- toLowerCase() -- It is used to convert given string into toLowerCase
+     * strings store characters in the form array indexing
+     --- charAt(index)  -- returns the character in that particular index
+     --- length -- length is used to return the no.of characters in a given string
+     --- indexOf(char) -- returns first occurence index of given char in string
+     --- lastIndexOf()  -- returns last occurence index of given char in string
+     --- slice(starting,ending) -- used to cut the given string based on starting and ending indexes
+     --- split(char)  -- used to divide the string based on given char
+     --- join(char)  -- used to join the characters based on given char
+     --- startsWith/endsWith()  -- returns true/false based on given char starting/ending in the string or not
+     --- concat()  -- used to combine strings
+     --- match()  -- returns the first match of given regular expression
+     --- includes() --- true/false based on char existence in given string
+   c. boolean:  boolean is used to return/store true or false. 
+   true can be converted as 1 and false as 0.
+   d. undefined: it is an accidental absence of value. it expects value in future
+   e. null: it is intenstion absence of value.
  ii. non-primitive data types or referece data types
    a. Arrays
    b. objects
