@@ -1,0 +1,10 @@
+Arrays:
+=======
+Array is collection of elements. Arrays stores elements with index values. Index values starts from zero. Arrays are embraced by square brackets
+let arr=[5,3,7,6]  // arr.length ==4
+console.log(arr[0]+arr[1])//5+3=8
+arr[11111]=5
+console.log(arr.length) //11112
+console.log(arr[-12]) //undefined
+
+

@@ -77,6 +77,131 @@ function collect (fruit1, fruit2, ...fruits)
 }
 collect("apple","mango","papaya","guava")
 
+function test ( ...b)
+{
+    console.log(b.length)//[[2,5,7],8,6,3]
+    const k=[...b[0],6]
+}
+test([2,5,7],8,6,3)
+
+
+
+
+
+// define a function which takes two parameters and subtract them and print in console
+function sub (a, b)
+{
+    console.log(a - b);
+}
+//convert the above function into function expression
+let sub2 = function (a, b)
+{
+    console.log(a-b)
+}
+/* we can write function expressions in more simple, modern way called arrow functions */
+let sub3 = (a, b) => console.log(a - b);
+function myFunction2(a, b = 40) {
+	// Function returns the product of a and b
+	return a * b
+}
+let myFunction3 = (a, b = 40) =>  a * b 
+
+// callback functions
+// callback function is a function which is passed as a argument to another function which is then called by receiver function
+let mad = () => console.log("Mad");
+console.log(mad)
+let bad = () => console.log("Bad");
+console.log(bad)
+let test1 = (x, y) =>
+{
+  x()
+    y();
+}
+test1(mad, bad)
+
+function test2 (a,b,test3)
+{ 
+    let x = test3(a);
+    let y = test3(b);
+    console.log(x+y)
+}
+let square = (k) => k * k;
+test2(2, 3, square)
+
+/* create a function which prints sqaures of all elements in a array 
+eg: input:2,3 ==> [4,9]
+input:2,3,4==>[4,9,16]
+*/
+function squares (fun,...arr)
+{
+    for (let i = 0; i < arr.length; i++)
+    {
+        console.log(fun(arr[i]))
+    }
+}
+let square2 = p => p * p;
+squares(square2,5,6,7)
+
+
+/* closure */
+function outer ()
+{
+    var a = 20;
+    function inner ()
+    {
+        a++;
+        console.log(a);
+    }
+    return inner;
+}
+let result = outer();
+console.log(result)
+result() //21
+result() //22
+result() //23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

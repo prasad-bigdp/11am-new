@@ -100,3 +100,64 @@ console.log(res)
 
 
 
+
+
+callback functions:  
+  A function that is passed as a argument to another function and then outer function may call it later is called callback function.
+  function x(){
+    console.log("i'm X")
+}
+function y(k){
+    k();
+    k();
+    k();
+}
+
+
+closure:  Inner function remembers outer function values even after outer function execution ended called as closure
+In real time closures are used in techniques like memorization
+
+function x(){
+var a=2;
+ return function(b){
+    return a+b;
+ }
+}
+let result = x()
+let answer= result(5);
+let answer2= result(3);
+let answer3= result(10);
+
+function expression: function expressions cannot have a function name and won't be hoisted
+var fun= function(){
+    console.log("hi)
+}
+
+Arrow functions: Arrow functions are used to make the functions simple, modern. arrow functions , if they contain single statement you can write without return keyword
+var x= (a,b)=>a+b;
+let y= x(5,6)
+//y=11
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log(answer)
+
+
+
+
+
+
+
+
+
+
