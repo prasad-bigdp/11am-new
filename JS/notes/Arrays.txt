@@ -1,10 +1,137 @@
 Arrays:
 =======
 Array is collection of elements. Arrays stores elements with index values. Index values starts from zero. Arrays are embraced by square brackets
+let a=["raj",5,true]
 let arr=[5,3,7,6]  // arr.length ==4
 console.log(arr[0]+arr[1])//5+3=8
 arr[11111]=5
 console.log(arr.length) //11112
 console.log(arr[-12]) //undefined
+Array Methods:
+1. length: it returns number of elements in an array from zero index
+2. push(values): push is used to enter/insert values into an array at end position. push returns length of new Array
+you can insert as many values at a time at end using push
+let a=[5,3]
+a.push(4,6)  // it returns 4
+a values will be changed as [5,3.4,6]
+
+--> Arrays are mutable in JS
+Mutability is the ability to change the values when methods are applied to it 
+for every method, arrays may change original values
+--> Arrays compares the references,not values
+
+3. pop(): Pop is used to remove the last value from an array
+pop will return deleted value and array will be updated
+
+4. unshift(values): unshift is used to add multiple values
+at the starting position of the array. it returns length of new array
+ arr.unshift(values)
+
+5. shift(): shift() is used to remove the first element 
+in the array. it returns the removed element
+arr.shift()
+
+6.splice(starting_index,deleteCount,values to insert):
+splice is used to insert/delete based on index value in an array
+for zero elements to delete, you can use 0.
+
+task1: let friens=["sheldon","joey","monica","ross","rachel","stuward"];
+1. remove sheldon and add phoebe // shift("sheldon") and unshift("phoebe")
+2. remove stuward and add chandler // pop("stuward") and push("chandler")
+3. between ross and rachel , add empty string // splice(4,0,"")
+
+7. indexOf('element'): it returns the index of  first occurence of given element
+let arr=[5,6,8,9,10,5,6]
+arr.indexOf(5) //0
+
+8. lastIndexOf('element'): it returns the index of last occurence of given element
+let arr=[5,6,8,9,10,5,6]
+arr.lastIndexOf(5) //5
+
+9. reverse(): reverse method in an array will reverse all elements
+let arr=[1,2,3,4]
+arr.reverse()//[4,3,2,1]
+
+10.sort(): sort method in arrays will sort sort values lexigraphically(alphabetically)
+let arr= [5,4,8,3];
+arr.sort() //[3,4,5,8]
+let arr2=[1,2,12,142,15,25]
+arr.sort()//[1,12,142,15,2,25]
+let arr=[4,24,11,44];
+//ascending order:
+arr.sort(function(a,b){
+    return a-b;
+})
+
+sort function follows below procedure if function is given
+1.compare neighours and return result
+2. if result is positive(a>b),
+swap neighbours
+3. if result is regitive(a<b),
+go for next neighbours
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
