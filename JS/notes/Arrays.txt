@@ -70,6 +70,23 @@ swap neighbours
 3. if result is regitive(a<b),
 go for next neighbours
 
+//includes -- it checks whether array contains the element or not
+arr = [5, 4, 3, 2, 1];
+console.log(arr.includes(25)) //false
+//concat
+console.log(arr.concat([2, 3, 4, 5]))
+// it won't modify original array
+// iterators
+forEach - used to iterate the complete array
+  forEach uses callback function and passes each and every value of array to the callback function, at each iteration
+
+  syntax:
+  arr.forEach(callback(ele,index))
+  
+
+
+
+
 
 
 
