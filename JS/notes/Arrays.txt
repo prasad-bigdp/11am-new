@@ -83,6 +83,46 @@ forEach - used to iterate the complete array
   syntax:
   arr.forEach(callback(ele,index))
   
+  1. forEach()
+Description: The forEach() method iterates over each element in an array and executes a provided function once for each array element. It does not return a new array; it simply applies the function to each element.
+
+Example:
+const arr = [1, 2, 3];
+arr.forEach(num => {
+  console.log(num * 2); // Outputs: 2, 4, 6
+});
+
+2. map()
+Description: The map() method creates a new array by applying a provided function to each element in the original array. Unlike forEach(), it returns a new array with transformed elements.
+
+Example:
+const arr = [1, 2, 3];
+const doubled = arr.map(num => num * 2);
+console.log(doubled); // Outputs: [2, 4, 6]
+
+3. filter()
+Description: The filter() method creates a new array containing elements that pass a condition defined by the provided function (i.e., elements for which the function returns true).
+
+Example:
+const arr = [1, 2, 3, 4, 5];
+const evenNumbers = arr.filter(num => num % 2 === 0);
+console.log(evenNumbers); // Outputs: [2, 4]
+
+4. some()
+Description: The some() method checks if at least one element in the array passes the condition specified in the provided function. It returns true if any element satisfies the condition, otherwise false.
+
+Example:
+const arr = [1, 2, 3, 4, 5];
+const hasEven = arr.some(num => num % 2 === 0);
+console.log(hasEven); // Outputs: true (since 2 and 4 are even)
+
+5. every()
+Description: The every() method checks if all elements in the array pass the condition defined by the provided function. It returns true if all elements satisfy the condition, otherwise false.
+
+Example:
+const arr = [2, 4, 6];
+const allEven = arr.every(num => num % 2 === 0);
+console.log(allEven); // Outputs: true (since all elements are even)
 
 
 
