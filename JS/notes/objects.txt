@@ -1,0 +1,17 @@
+Objects:
+========
+object is a physical entity with attributes and methods
+let obj_name={
+    property1:value,
+    peroperty2:value.....
+}
+objects contains data in key value pairs where keys contai property/method names and values contains property-values/method-definition
+
+we can access the object values using dot notation or
+index signature
+dot notation: obj_name.property-name
+index signature : obj_name['property-name']
+
+
+
+

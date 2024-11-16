@@ -78,6 +78,25 @@ console.log(res3)
 let res4 = arr.every((val) => val % 2 == 0) //true
 console.log(res4)
 
+arr = [5,6,7];
+let res8 = arr.reduce((pv, cv)=> pv + cv, 10)
+console.log(res8)
+// flatten array
+let newArray = [[2, 3], [4, 5], [6, 7]];
+let res9 = newArray.reduce((pv, cv) => cv.concat(pv),[])
+console.log(res9)
+let test3 = [[1, 2, 3, 1], [5, 1, 2, 3], [2, 3], [5, 3, 5]]
+
+//output: [7,11,5,13]
+let res10= test3.map((val)=> val.reduce((pv,cv)=>pv+cv,0))
+console.log(res10)
+
+
+
+
+
+
+
 
 
 

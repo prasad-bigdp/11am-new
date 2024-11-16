@@ -76,7 +76,8 @@ console.log(arr.includes(25)) //false
 //concat
 console.log(arr.concat([2, 3, 4, 5]))
 // it won't modify original array
-// iterators
+
+iterators
 forEach - used to iterate the complete array
   forEach uses callback function and passes each and every value of array to the callback function, at each iteration
 
@@ -123,6 +124,15 @@ Example:
 const arr = [2, 4, 6];
 const allEven = arr.every(num => num % 2 === 0);
 console.log(allEven); // Outputs: true (since all elements are even)
+
+6. reduce:
+reduce method is used in situations where current value updates using previous value and iterates until end of the Array
+syntax: array.reduce(fn(pv,cv),initial_value)
+
+
+
+
+
 
 
 
