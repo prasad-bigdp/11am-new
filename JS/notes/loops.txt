@@ -1,0 +1,41 @@
+//loops are used to iterate certain statements again and again.loops executes its body until the condition becomes false
+//we have two types of loops i.e., entry control loops and
+/*exit control loops
+Eg: while,dowhile */
+Syntaxes:
+//initalization
+while(condition){
+    //statements
+    //updation
+}
+
+
+//initalization
+do{
+    //statements
+    //updation
+}while(condition);
+
+
+standard for:
+//for(initalization;condition;updation){
+    //statements
+}
+
+javascript provides variations of for such as forEach,for--of,for--in
+
+for..of: for of is used to iterate through the array with out callback function
+for(let x of arr){
+    console.log(x)
+}
+
+for (let i in arr) {
+	console.log(i)
+}
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+JS
+==================
+  1. introduction
+  2. var,let,const
+  3. Working of JS( Hoisting, callstack, execution content, console)
+  4. Data types
+    i. primitive
+          number: math methods
+          strings: string methods, template literals
+          boolean
+          undefined
+          null
+    ii. functions
+            normal,with parameters, default parameters,
+            return values, rest,spread,function expression
+            callback, closure
+    iii. Arrays:
+            basics, length,push,pop,unshift,shift,splice,
+            includes,indexOf,lastIndexOf,concat,sort,reverse,
+            forEach,map,filter,some,every,reduce
+    iv. objects: dot or indexSignature
+    Object methods    
+
+3. control statements
+     -- if
+     -- switch

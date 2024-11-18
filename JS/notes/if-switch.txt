@@ -1,0 +1,51 @@
+Decision making Statements:
+   These statements are used to make a decision/choice so that control flow will change based on that decision/choice
+
+   i. if: if is used to change the control flow based on a condition. we can write if as:
+    -- simple if:
+    if(condition){
+        //statements
+    }
+    statements will get executed only if condition is true
+
+   ii. To handle false conditions also, we can use else
+     -- if, else
+     if(condition){
+        //statements
+     }
+     else{
+        //statements
+     }
+     iii. nested if: we can keep one if inside another if condition, that is called nested if
+     if(condition1)
+     {
+        if(condition2){
+            //statements
+        }
+     }
+     iv. if-else-if: To Deal With multiple conditions, we use
+     if-else-if 
+     if(condition1){
+        //statements
+     }
+     else if(condition2){
+        //statements
+     }
+     else {
+        //statements
+     }
+
+     Incase If we have more conditions, we can deal them using
+    switch-case
+2. switch:
+switch is used to trigger respective case/choice based on user's input
+switch(expression/statements){
+    case value1://statements;
+                   break;
+    case value2://statements;
+                   break;
+    case value3://statements;
+                   break;
+    default: //statements;               
+} 
+break is a keyword used to stop the execution and goes to the nearest closing brace
