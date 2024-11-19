@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightskyblue;
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#counter{
+    background-color: white;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    gap: 20px;
+    border-radius: 50px;
+    box-shadow: 2px 3px black;
+}
+p{
+    font-size: 48px;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+}

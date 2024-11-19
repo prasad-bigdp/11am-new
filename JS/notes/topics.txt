@@ -24,3 +24,10 @@ JS
 3. control statements
      -- if
      -- switch
+4. loops 
+    -- while
+    -- do while
+    -- for
+    -- forEach
+    -- for..of
+    -- for..in
