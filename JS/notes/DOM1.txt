@@ -22,7 +22,19 @@ We can manipulate/update the element we selected. To manipulate we can use,
                   </script>
            II. innerText: innerText brings the text inside the elements. we can even update it but it also consider 
              the stylesheet. Except in the case visibility hidden for an element, innerText and textContent can be   interchangeable
-           
+           III. innerHTML: innerHTML is used to update the html content of DOM elements.
+               element.innerHTML = '<strong>New HTML content</strong>';
+           IV.  Change Attributes
+               we can set/get Attributes such as classes/id's
+               element.setAttribute('class', 'newClass');
+               element.setAttribute('id', 'newId');
+                // Get an attribute
+                let id = element.getAttribute('id');
+                console.log(id);
+            V. Change Styles
+                  element.style.color = 'red';
+                  element.style.fontSize = '20px';
+                 element.style.backgroundColor = 'yellow';
 
 
 
