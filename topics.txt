@@ -26,5 +26,22 @@ JS
   -- var,let,const
   -- JS engine(callstack,hoisting,execution content, window object etc..,)
   -- number(math methods),string(template literal, default methods),boolean,undefined,null
- -- functions
+ -- functions(normal function, return function,default parameters,rest,spread,callback,closure,function expression,arrow)
+ -- Arrays(basics, push,pop,shift,unshift,splice,includes,concat,reverse,sort,
+ forEach,map,filter,some,every,reduce)
+ -- objects(dot,index signature,Object methods)
+ -- DOM(Document Object Model)
+     -- selection:getElementsByTagName,getElementsByClassName,getElementByID,
+     querySelector,querySelectorAll
+     -- manipulation: textContent
+
+
+
+
+
+
+
+
+
+
 
