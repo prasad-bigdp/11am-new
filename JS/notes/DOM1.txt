@@ -35,6 +35,8 @@ We can manipulate/update the element we selected. To manipulate we can use,
                   element.style.color = 'red';
                   element.style.fontSize = '20px';
                  element.style.backgroundColor = 'yellow';
+  III. DOM creation: we can create an element from JS using 
+    document.createElement('element')
 
 
 
@@ -42,6 +44,4 @@ We can manipulate/update the element we selected. To manipulate we can use,
 
 
 
-
-
-  III. DOM creation
+    
