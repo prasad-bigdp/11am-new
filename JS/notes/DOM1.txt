@@ -37,7 +37,9 @@ We can manipulate/update the element we selected. To manipulate we can use,
                  element.style.backgroundColor = 'yellow';
   III. DOM creation: we can create an element from JS using 
     document.createElement('element')
-
+  we can even append element inside parent element using
+  append -- used to append multiple elements
+  appendChild -- used to append single element
 
 
 
