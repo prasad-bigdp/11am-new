@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+input,#btn{
+height: 50px;
+}
+input{
+    width: 200px;
+    font-size: 24px;
+    color: #333;
+    border-radius: 20px;
+}
+button{
+    width: 100px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+}
+.todo{
+    display: flex;
+    gap: 20px;
+    font-size: 32px;
+    margin: 10px;
+}
+.todo p{
+    width: 150px;
+}
+.todo button{
+    height: max-content;
+    padding: 10px 0px;
+}
+.strikeOut{
+  text-decoration: line-through;
+}
