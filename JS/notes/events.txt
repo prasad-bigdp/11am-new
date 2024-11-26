@@ -1,0 +1,56 @@
+Events: An Event must be something a user does or browser does like page finished loading, input was entered, button got clicked.
+  Events can be handled in two ways
+   1. Event Handlers
+   2. Event Listener
+
+1. Event Handler:
+ Event handlers handle the events in HTML.We define what to trigger when an event occurs in HTML element only as a attribute
+
+Eg: <button onclick="console.log("hello")">click me</button>
+it creates a button and when user clicks on the button, it prints hello in console.
+Incase of user not interacting with button, console action will never happen
+
+Event types:
+  There are numerous types of events that can trigger the actions like
+  i. mouse events:
+  mouse events are activated by mouse actions like
+  onclick,onmouseOver,onmouseOut,onscroll,ondblclick,ondrag,ondrop, etc..,
+  ii. keyboard events: 
+  keyboard events are triggered by keyboard actions such as
+  key up,key down,key press etc..,
+  we can even take the event to event listners as a object and get its value
+  iii. formEvents: 
+  form Events are activated by form/input actions such as
+  oninput,onchange,onsubmit,onenter,,onreset,onfocus,onblur etc..,
+  iv. window and other events
+  we have some events directly triggered by browser either window object or document object such as
+  onload,onabort,onresize etc..,
+  we can also perform events for animations and transitions
+
+ii. EventListner: it is a function which is added to any document element. it will take atleast two arguments
+i.e., event and callback
+Advantage with event listners are , we can add or remove the eventListners. Also we can see the whole events in Js only
+
+By default EventListners follows a propagation. Event propagation means how events travel in the flow or connected with flow. There are two types of event propagation such as
+i.Bubbling:
+when a event triggered to innermost child, it also triggers similar event parent and so on till the outermost. 
+this type of propagation is called event bubbling. it is the default nature of js eventListners
+ii.capturing: we can event make events progragate from outermost to innermost with similar event triggering called capturing
+To capture events , make third argument of eventListners 
+"true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
