@@ -1,0 +1,13 @@
+Asynchronous Javascript(AJAX):
+  Js is synchronous(line by line) single threaded(one task at a time) language
+
+  Asynchronous Javascript makes the code wait for a specific time. it takes time to run
+  Asynchronous can also means run specifically.
+
+  We can understand Asynchronous by Timers
+  Every Browser Provides a webAPI for Timers such as 
+  setTimeout
+  setInterval
+
+
+

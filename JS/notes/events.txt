@@ -42,6 +42,13 @@ To capture events , make third argument of eventListners
 
 
 
+Event Delegation is a design pattern in which we develop functions for parents instead of individual childern so that anyway every child triggers parent function also because of bubbling
+
+
+
+
+
+
 
 
 

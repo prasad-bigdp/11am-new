@@ -23,8 +23,13 @@ presses a, e ,i,o,u, print consonant in other cases*/
 //     console.log(event.target.value)
 // })
 
-document.getElementById('gp').addEventListener('click',()=>alert("grand parent clicked"),true)
- document.getElementById("c").addEventListener("click", () => alert("child clicked"),true)
-document.getElementById("btn").addEventListener("click", () => alert("button clicked"),true)
+// document.getElementById('gp').addEventListener('click',()=>alert("grand parent clicked"))
+//  document.getElementById("c").addEventListener("click", () => alert("child clicked"))
+// document.getElementById("btn").addEventListener("click", () => alert("button clicked"))
+document.getElementById('parent').addEventListener('click',fun)
 
-
+function fun (event)
+{
+    console.log(event)
+    alert(event.target.textContent+" clicked")
+}

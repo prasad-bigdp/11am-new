@@ -31,3 +31,12 @@ JS
     -- forEach
     -- for..of
     -- for..in
+5. DOM
+    -- selection
+    -- manipulation
+    -- creation
+6. Events
+    -- event handlers
+       --mouse events,keyboard events,form events,window events
+    -- event listners
+       -- event propagation(bubbling,capturing)
