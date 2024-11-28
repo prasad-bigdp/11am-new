@@ -6,8 +6,24 @@ Asynchronous Javascript(AJAX):
 
   We can understand Asynchronous by Timers
   Every Browser Provides a webAPI for Timers such as 
-  setTimeout
-  setInterval
+  setTimeout: setTimeout accepts two argument mainly i.e., callback function and timer in ms
+ Eg: function fun(){console.log("fun working")}
+   setTimeout(fun,2000)
+it will run fun function after 2 seconds
+  setInterval:setInterval accepts two argument mainly i.e., callback function and timer in ms
+   Eg: function fun(){console.log("fun working")}
+   setInterval(fun,2000)
+it will run fun function for every 2 seconds
+To stop timeout or interval we can use clearTimeout(variable) 
+and clearInterval(variable)
+
+Javascript provides a datatype called "Date"
+Date object will give current date,time,timezone respectively
+you can use different methods to print,date , time, month,year etc..,
+
+
+
+
 
 
 

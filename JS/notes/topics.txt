@@ -39,4 +39,12 @@ JS
     -- event handlers
        --mouse events,keyboard events,form events,window events
     -- event listners
-       -- event propagation(bubbling,capturing)
+       -- event propagation(bubbling,capturing),event delegation
+7. Asynchronous Javascript
+   -- timers
+        -- setTimeout
+        -- setInterval
+
+
+
+
