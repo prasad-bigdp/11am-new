@@ -12,3 +12,6 @@ A promise undergoes three states:
 if a promise is resolved , we can get the result/perform some action in "then"
 if a promise is rejected, we can get the result/perform an action in "catch"
 
+one promise can result/return another promise where it can be resolved or return a new promise and so on. promises can be connected by then chaining, so that it perform multiple Asynchronous functions sequentially
+
+This is called "Promise Chaining"

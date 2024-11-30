@@ -43,7 +43,7 @@ let obj = new Promise((resolve,reject) =>
 obj
     .then((res) => res*2)
     .then((res2) => res2*2)
-    .then((res3) =>  console.log("spend: "+res3) )//spend: 80
+    .then((res3) =>  console.log("spend: "+res3) )//spend: 100
 .catch((reason)=>console.log("reason: "+reason))
 
 
@@ -52,7 +52,7 @@ obj
 
 
 
-// checkout(cart(product(home)))
+//  checkout(cart(product(home)))
 
 // home
 //     .then(product)

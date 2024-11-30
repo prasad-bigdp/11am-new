@@ -1,0 +1,19 @@
+API's are used to coomunication frontend with backend or any other third party Applications. it is like a bridge between frontend and backend
+   Api contains an endpoint(url) to perform several actions like 
+   GET,POST,PUT,DELETE,PATCH
+   API end points contains data as JSON(Javascript object notation)
+   RESTAPI's are used in web developement to transfer data as JSON
+
+   How to use API's?
+   There are 2 basic ways
+   i. xhr(XmlHttpRequest): 
+   In olden times , we used xhr and create an object to it 
+   and resolve its data
+   ii. fetch
+   fetch is default method/webAPI provided by browser like console,document,timers etc..,
+   
+
+
+
+
+
