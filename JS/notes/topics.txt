@@ -42,8 +42,9 @@ JS
        -- event propagation(bubbling,capturing),event delegation
 7. Asynchronous Javascript
    -- timers
-        -- setTimeout
-        -- setInterval
+        -- setTimeout,clearTimeout
+        -- setInterval,clearInterval
+   -- Promises
 
 
 

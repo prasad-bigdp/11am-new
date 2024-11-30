@@ -1,0 +1,14 @@
+Why do we need promises?
+  Before Js starts promises, js handles some situations using callbacks, it leads to a probelm called "callback hell"
+what is a promise?
+Promise is an object which defines an eventual completion
+of an Asynchronous operation
+Promise can be resolved or rejected 
+A promise undergoes three states:
+  i. fulfilled: if a promise is resolved , it goes to the fulfilled state
+  ii. rejected: if a promise is rejected, it goes to the rejected state
+  iii. pending: until resolved or reject, it will be in pending state
+
+if a promise is resolved , we can get the result/perform some action in "then"
+if a promise is rejected, we can get the result/perform an action in "catch"
+
