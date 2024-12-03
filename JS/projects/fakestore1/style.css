@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+#mainDiv{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  max-width: 100%;
+}
+.product{
+ padding: 20px;
+ border-radius: 20px;
+ box-shadow: 2px 3px 2px #333;
+ transition: all 1s ease;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+nav{
+    width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+nav button:hover{
+    background-color: aqua;
+}
+nav button{
+background-color: blue;
+padding: 20px;
+color: white;
+font-size: 24px;
+border: 1px solid white;
+}
+h2{
+    text-align: center;
+}
+.product:hover{
+    transform: scale(1.05);
+}
+.product img{
+    height: 200px;
+}

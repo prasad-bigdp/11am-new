@@ -1,4 +1,4 @@
-API's are used to coomunication frontend with backend or any other third party Applications. it is like a bridge between frontend and backend
+API's are used to communication frontend with backend or any other third party Applications. it is like a bridge between frontend and backend
    Api contains an endpoint(url) to perform several actions like 
    GET,POST,PUT,DELETE,PATCH
    API end points contains data as JSON(Javascript object notation)
@@ -9,10 +9,46 @@ API's are used to coomunication frontend with backend or any other third party A
    i. xhr(XmlHttpRequest): 
    In olden times , we used xhr and create an object to it 
    and resolve its data
+
+   // let data={}
+// function reqListener() {
+//     console.log(this.responseText)
+//     data = JSON.parse(this.responseText)
+//     console.log(data)
+// }
+
+
+// function displayData ()
+// {
+    
+// const req = new XMLHttpRequest()
+// req.addEventListener("load", reqListener)
+// req.open("GET", "https://official-joke-api.appspot.com/random_joke")
+// req.send()
+// 
+// }
+// document.getElementById('btn').addEventListener('click',displayData)
+
+
+
    ii. fetch
    fetch is default method/webAPI provided by browser like console,document,timers etc..,
-   
+    using fetch, we can perform GET,POST,PUT,DELETE,PATCH etc..,
 
+    fetch('url')  ---> returns promise, resolve promise by then and catch
+    .then()
+    .then()
+    .catch()
+
+
+
+
+
+
+
+
+
+   
 
 
 
