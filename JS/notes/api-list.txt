@@ -1,0 +1,13 @@
+https://pokeapi.co/api/v2/pokemon/pikachu
+https://jsonplaceholder.typicode.com/
+https://fakestoreapi.com/products
+https://dummyjson.com/
+https://official-joke-api.appspot.com/random_joke
+https://api.quotable.io/random
+https://randomuser.me/api
+https://sampleapis.com/
+https://www.omdbapi.com/
+https://www.themoviedb.org
+https://api.openweathermap.org/data/2.5/weather?q=pune&units=metric&appid=c71d877fa4098a434d8e1032df84812f
+https://www.thenewsapi.com/
+https://github.com/public-apis/public-apis
