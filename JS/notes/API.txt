@@ -40,7 +40,19 @@ API's are used to communication frontend with backend or any other third party A
     .then()
     .catch()
 
+    async await: async await is a modern approach towards promises and it makes code linear, so easy to understand
+      async function fun_name(){
+         const res= await fetch('')
+         const data=await res.json();
+      }
 
+For Error HAndling, we can use try.. catch blocks
+try{
+ //code
+}
+catch(e){
+
+}
 
 
 

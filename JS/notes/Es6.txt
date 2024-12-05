@@ -1,0 +1,106 @@
+Ecmascript 6: Ecmascript is an organization to bring changes/updates/new features to scripting lanaguages
+In 2015, ES6 is released. current ES version is 15
+ES6 brought a lot of new features to js so that js became more simple
+  They are:
+  i. var to const/let
+  ii. strings to template literals
+  iii. functions with default parametrs,arrow functions
+  iv. mutiple returns in a functions
+  v. rest and spread operator
+  vi. constructor function to constructors
+  vii. OOPS
+  viii. commonJS to ES6 module system
+  ix. array and object destructuring
+  x. new datatypes like regexp,map,set,symbols
+
+
+  i. var to let/const:
+  Before ES6, we used var to declare a variable. But ES6 introduced let and const
+  var can redeclare,reassign,hoisting. var is a function scoped variable
+  let and const cannot do redeclare and Hoisting
+  let can reassign and const cannot
+  let and const are block scoped variable
+
+  ii. strings to template literals:
+  Before ES6, we used strings as static/constant values
+  But to write multi line strings / dynamics strings, ES6 introduced template literals
+
+  we embrace dynamic values within ${} and whole string in backticks. Combining dynamic value into string is also called string interpolation
+
+  iii. Default parameters and arrow functions:
+  ES6 brings functions with default values to undefined parameters
+   function fun(a,b=5){
+    console.log(a+b)
+   }
+  a(5);a(5,10);
+  if b value is given it will accept else it will assign b value as 5.
+  Before Es6, we consider functions as variables by function expressions
+  var x= function(){
+    console.log("value")
+  }
+  but Es6 brought simple,modern way
+  const x= ()=>console.log("value")
+  ** arrow functions will not have "this" , normal functions,function expressions does.
+  
+iv. multiple returns in a function:
+function cannot return multiple values but Es6 gave a solution by returning multiple values in the form of Array or object.
+
+v. Rest and Spread operators:
+Rest and spread, both are denoted by three dots(...)
+They are used for different purposes
+Rest is used to take rest of the elements as a array, 
+Spread is used to split the elements of the array.
+Rest operator should be always last.
+function sum2 (a, ...b)
+{
+    console.log(a, b)
+    const c = ["x", "y", ...b] //["x","y",6,7,8,9]
+    console.log(c)
+}
+sum2(5, 6, 7, 8, 9)
+
+
+vi. Array and object destructuring:
+destructuring is used to get the values out of the array/object in a simple manner
+//Array destructure
+
+let arr2 = ["vani", "rani", "mani", "phani"];
+// let x1 = arr[0];
+// let x2 = arr[1];
+// let x3 = arr[2];
+// let x4 = arr[3]
+let [x1, ...x2] = arr2;
+console.log(x1, x2);
+
+
+
+let arr3 = [5, 4, 3];
+let [y1, ...y2] = arr3;
+console.log(y1, y2)
+
+//object destructuring
+let obj = {
+    name: "PRASAD",
+    job:"Full stack developer"
+}
+console.log(obj.job)
+let { name,job } = obj;
+console.log(job)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
