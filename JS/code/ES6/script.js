@@ -92,6 +92,64 @@ console.log(job)
 
 
 
+//classes
+class Teacher
+{
+    name; salary; id; subject;
+    constructor(i,n,s,sub)
+    {
+        this.id = i;
+        this.name = n;
+        this.salary = s;
+        this.subject = sub;
+    }
+}
+// this means current calling object
+console.log(typeof Teacher)
+// console.log(salary)
+let obj3=new Teacher(25,"lata",25000,"Maths") //create one object
+console.log(obj3.salary) //access the values
+ 
+//In olden times , we have contructor function, but ES6 gives direct constructor to class
+//constructors are used to assign initial values to data members
+
+class employee
+{
+    eid; ename; esalary;
+    constructor(i, n, s)
+    {
+        this.eid = i; this.ename = n; this.esalary = s;
+    }
+    display ()
+    {
+        console.log(`Ename:${this.ename} , Eid:${this.eid}, Esalary:${this.esalary}`)
+    }
+}
+class Manager extends employee {
+	teamid
+    constructor(tid, i, n, s)
+    {
+        this.teamid=tid
+		super(i,n,s)
+	}
+}
+let obj4 = new employee(45, "Raj", 25000);
+let obj5 = new employee(65, "Ragini", 15000);
+let obj6 = new Manager(4152, 65, "jaya", 15000)
+obj5.ename="ramani"
+obj4.display();
+// classes can also have inheritance
+// inheritance means aquaring parent properties to child
+
+
+
+
+
+
+
+
+
+
 
 
 

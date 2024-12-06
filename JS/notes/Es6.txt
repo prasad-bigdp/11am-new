@@ -32,7 +32,7 @@ ES6 brought a lot of new features to js so that js became more simple
    function fun(a,b=5){
     console.log(a+b)
    }
-  a(5);a(5,10);
+  fun(5);fun(5,10);
   if b value is given it will accept else it will assign b value as 5.
   Before Es6, we consider functions as variables by function expressions
   var x= function(){
@@ -86,6 +86,105 @@ let obj = {
 console.log(obj.job)
 let { name,job } = obj;
 console.log(job)
+
+
+
+// Object oriented Programming
+// Till 2015, JS implements functional Programming
+// ES6 brings classes and OOPs to JS
+object: an object is a real world entity which contains attributes and methods
+eg: specific fan --- color,shape,no-of-wings
+    run(),stop()
+    let obj={
+      color:"red",
+      shape:"round",
+      no-of-wings:3
+    }
+class : A blueprint of object.
+Eg: fan
+
+Examples:
+class: fruits -- color, taste
+object: orange -- orange,sweet
+object: banana - yellow,sweetsour
+
+** class is a collection/factory of objects. object is an instance of class
+
+-- In Js, classes are actually functions
+syntax:
+class classname{
+
+}
+
+class contains data and methods which belongs to objects so that
+variable declarations such as let,var,const or function declarations such as function keyword are not allowed
+
+
+constructors: Before Es6, we used to have constructor functions which got changed to direct constructors in ES6
+A constructor is a function which is used to initialise initial value to class data members. constructors are called by default at object creation
+
+There are two types of constructors i.e., default and paramterized
+Default constructors will not pass any parameters
+paramterized constructors will pass parameters
+Eg:
+class Car{
+  color;brand;
+  constructor(c,b){
+    this.color=c;
+    this.brand=b;
+  }
+}
+let obj= new Car("red","Maruti")
+// this is a current calling object
+console.log(obj.color) //red
+
+JS classes also supports inheritance. inheritance means aquaring properties an methods from parent class to child class. 
+JS supports multi level and Heirarcal inheritance
+
+class employee
+{
+    eid; ename; esalary;
+    constructor(i, n, s)
+    {
+        this.eid = i; this.ename = n; this.esalary = s;
+    }
+    display ()
+    {
+        console.log(`Ename:${this.ename} , Eid:${this.eid}, Esalary:${this.esalary}`)
+    }
+}
+class Manager extends employee {
+	teamid
+    constructor(tid, i, n, s)
+    {
+        this.teamid=tid
+		super(i,n,s)
+	}
+}
+let obj4 = new employee(45, "Raj", 25000);
+let obj5 = new employee(65, "Ragini", 15000);
+let obj6 = new Manager(4152, 65, "jaya", 15000)
+obj6.display()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
