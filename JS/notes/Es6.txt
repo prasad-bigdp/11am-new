@@ -167,6 +167,26 @@ let obj6 = new Manager(4152, 65, "jaya", 15000)
 obj6.display()
 
 
+viii. ES6 Module System:
+Module systems are used to export/import data or functionalities from one js file to another js file. we have several module systems such as commonJS,requireJS etc..,
+WE changed to ES6 module system from commonJS in 2015(ES6)
+
+we can import / export using "import","export" keywords
+we can do
+  i. default imports and exports
+  export default valuename;
+  import valuename from 'filepath'
+  ii. named imports and exports
+  export {value1,value2,value3}
+  import {value1,value2} from 'filepath'
+
+
+
+
+
+
+
+
 
 
 

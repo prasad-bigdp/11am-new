@@ -18,7 +18,7 @@ function fun ()
 let p = 10;
 const q = 20
 // q = 25
-function fun() {
+function fun2() {
 	if (true) {
 		let k = 30
 	}
@@ -129,8 +129,8 @@ class Manager extends employee {
 	teamid
     constructor(tid, i, n, s)
     {
-        this.teamid=tid
-		super(i,n,s)
+        super(i, n, s);
+        this.teamid = tid
 	}
 }
 let obj4 = new employee(45, "Raj", 25000);
@@ -141,7 +141,8 @@ obj4.display();
 // classes can also have inheritance
 // inheritance means aquaring parent properties to child
 
-
+export default obj;
+export {sum,sum2,newfun,Teacher,employee,Manager}
 
 
 

@@ -1,0 +1,32 @@
+We have several datatypes which are used to store specific datatypes.The special datatypes in JS are:
+  i. Map:  Map is a data structure that stores key-value pairs similar to objects but with some differences:
+    keys can be any data type,
+    keys are unique
+    Maps follows an order in insertion
+
+    const m = new Map();
+console.log(m)
+m.set('name', "prasad")
+m.set(20, 25)
+m.set('name', 'Raj')
+console.log(m.get('name'))
+  ii. Set : Set is a data structure that stores unique values similar to array with differences:
+    -- values are unique
+    -- Sets do not contain specific order
+const s = new Set();
+console.log(s);
+s.add(5);
+s.add(6);
+s.add(5);
+console.log(s.size)
+  iii.Symbols:
+Symbols are primitive data types used as a unique identifier
+They can be created using Symbol() function
+
+  iv. RegExp:
+  Regular Expressions are used to create pattern
+These patterns helps to identify passwords,email verifications etc..,
+
+
+
+

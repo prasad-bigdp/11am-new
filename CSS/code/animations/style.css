@@ -13,6 +13,7 @@ body{
     width: 100px;
     position: absolute;
     animation: rotate-scale 3s linear alternate infinite;
+    color: rebeccapurple;
 }
 @keyframes rotate-scale {
   0% {
