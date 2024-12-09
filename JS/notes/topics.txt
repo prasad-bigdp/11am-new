@@ -46,6 +46,18 @@ JS
         -- setInterval,clearInterval
    -- Promises
    -- API(Application programming interface)
+   -- async await
+8. ES6
+   -- let,const,var
+   -- template reference variable
+   -- rest,spread
+   -- arrow functions
+   -- destructuring
+   -- OOPS,classes,object,inheritamce,constructor
+   -- modules
+   -- Set,Map,Symbol,RegExp
+9. BOM
+10. libraries like jquery
    
 
 

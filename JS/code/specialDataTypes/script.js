@@ -22,12 +22,13 @@ console.log(typeof sy);
 // console.log(obj.sy)
 
 //RegExp
-const rx = /[A-Z]{3}/;
+const rx = /ab*/;
 document.getElementById('form').addEventListener('submit',fun)
 function fun (e)
 {
     e.preventDefault();
     const inp = document.getElementById('inp')
+    console.log(inp.value)
     if (rx.test(inp.value))
     {
      alert("correct")   

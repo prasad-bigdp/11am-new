@@ -1,0 +1,1 @@
+window object is called Browser object

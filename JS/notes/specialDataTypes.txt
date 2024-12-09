@@ -24,9 +24,13 @@ Symbols are primitive data types used as a unique identifier
 They can be created using Symbol() function
 
   iv. RegExp:
-  Regular Expressions are used to create pattern
+  Regular Expressions are used to create and test a pattern
 These patterns helps to identify passwords,email verifications etc..,
 
+Reg expressions are embraced between / and /
+it uses following symbols for validation
 
+eg: let x= /[0-9]{10}/,
+        x= /\+\d{1,4}-[0-9]{10}/
 
 
