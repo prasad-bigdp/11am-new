@@ -1,0 +1,24 @@
+*{
+    transition: all 1s ease;
+}
+.category{
+    padding: 10px;
+    box-shadow: 2px 3px black;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    background-color: white;
+    box-shadow: 2px 3px #333;
+    border-radius: 20px;
+}
+.product:hover{
+    transform: scale(1.05);
+}
+footer>img{
+    height: 100px;
+    width: 100px;
+}

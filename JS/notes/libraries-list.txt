@@ -1,0 +1,7 @@
+Libraries:
+1. JQuery : The slogan says " write less, do more "
+JQuery is mostly used for DOM and AJAX operations 
+2. React: 
+React is a Javascript library used for UI purposes
+React divides UI into reuable blocks of code called components
+We can write HTML inside JS called JSX

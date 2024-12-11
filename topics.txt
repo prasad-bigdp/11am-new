@@ -33,7 +33,33 @@ JS
  -- DOM(Document Object Model)
      -- selection:getElementsByTagName,getElementsByClassName,getElementByID,
      querySelector,querySelectorAll
-     -- manipulation: textContent
+     -- manipulation: textContent,innerText,innerHTML,
+                      classlist.add/remove/toggle
+                      style
+     -- creation : createElement,append,appendChild
+-- events : event handlers
+            event listners
+                 -- bubbling
+                 -- capturing
+                 -- delegation
+-- AJAX(Asynchronous js)
+    -- timers(setTimeout,setInterval)
+    -- API,json,endpoint
+    -- promises
+    -- fetch
+    -- async await
+-- ES6 
+    --OOPS (classes,constructors,inheritance)
+    -- destructuring
+    -- modules
+-- BOM
+-- libraries
+
+
+
+
+
+
 
 
 

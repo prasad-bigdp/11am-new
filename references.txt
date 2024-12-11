@@ -12,7 +12,12 @@ JS:
 freecodecamp
 jshero
 https://www.jschallenger.com/overview
-
+htmlrev
+codepen
+free frontend
+labex
+codechef
+leetcode
 -------------------------------------------------------------------
 community:
 dev.to
