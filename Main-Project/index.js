@@ -41,7 +41,13 @@ const displayTopProducts = (data) =>
         productTitle.textContent = c.title;
         const productPrice = document.createElement('p');
         productPrice.textContent = "Price: ₹" + c.price;
-		div.append(image,productTitle,productPrice)
+        const productButton = document.createElement('button');
+        productButton.textContent = "Add to cart";
+        productButton.addEventListener('click', () =>
+        {
+            addtoCart(c)
+        })
+		div.append(image,productTitle,productPrice,productButton)
 		topDiv.appendChild(div)
 	})
 }
